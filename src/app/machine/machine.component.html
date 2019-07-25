@@ -1,0 +1,3 @@
+<div (keydown)="play($event)" *ngFor="let pad of pads">
+  <drum-pad trigger-key="{{pad.key}}" sound="{{pad.sound}}" (trigger-pad)="play()"></drum-pad>
+</div>

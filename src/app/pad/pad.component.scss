@@ -1,0 +1,31 @@
+div {
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+
+span.trigger-key {
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+  border: 1px solid #ababab;
+  font-size: 10px;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: 12px;
+  opacity: 0.4;
+}
+
+span.sound {
+  opacity: .3;
+}
